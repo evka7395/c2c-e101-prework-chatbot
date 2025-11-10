@@ -91,8 +91,6 @@ def account_creation_help():
 
 def main():
     user_introduction(name, age)
-    banking_info(age, account_amount)
-    #bot_prompt()
-    advanced_features(1)
+    bot_prompt()
 
 main()
