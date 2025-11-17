@@ -11,13 +11,13 @@ def prompt(name,age):
         user_input = input("What would you like assistance with?\n 1. Cards and Account Types\n 2. Interest Calculator \n 3. How to Make a Bank Account with Us\n 4. Exit ")
         if user_input == "1":
             credit_cards()
-            user_input = input("What would you like assistance with?\n 1. Cards and Account Types\n 2. Interest Calculator \n 3. How to Make a Bank Account with Us\n 4. Exit ")
+            #user_input = input("What would you like assistance with?\n 1. Cards and Account Types\n 2. Interest Calculator \n 3. How to Make a Bank Account with Us\n 4. Exit ")
         elif user_input == "2":
             interests(name,age)
-            user_input = input("What would you like assistance with?\n 1. Cards and Account Types\n 2. Interest Calculator \n 3. How to Make a Bank Account with Us\n 4. Exit ")
+            #user_input = input("What would you like assistance with?\n 1. Cards and Account Types\n 2. Interest Calculator \n 3. How to Make a Bank Account with Us\n 4. Exit ")
         elif user_input == "3":
             account_creation()
-            user_input = input("What would you like assistance with?\n 1. Cards and Account Types\n 2. Interest Calculator \n 3. How to Make a Bank Account with Us\n 4. Exit ")
+            #user_input = input("What would you like assistance with?\n 1. Cards and Account Types\n 2. Interest Calculator \n 3. How to Make a Bank Account with Us\n 4. Exit ")
         elif user_input == "4":
             print("Thank you for using the Financia chatbot. We hope to see you again soon!")
             bot_run = False
